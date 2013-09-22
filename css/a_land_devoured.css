@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*format*/
+body 	{background-color: #fcf6eb;}
+ul		{list-style: none}
+
+/*fonts*/
+h1, h2 	{font-family: 'Macondo', Georgia, serif;
+		 color: #333;}
+h1 		{font-size: 62px;}
+h2 		{font-size: 27px;}
+p, a	{font-family: 'Caudex', Tahoma, serif;
+		 font-size: 14px;}
+p		{color: #666;
+		 line-height: 20px;}
+a, .char_solo
+ 		{text-decoration: none; 
+		 color: #ce8002;
+		 cursor: pointer; 
+		-webkit-transition: all .2s ease-in;
+		-moz-transition: all .2s ease-in;
+		-o-transition: all .2s ease-in;
+		 transition: all .2s ease-in;} 
+a:hover, .char_solo:hover
+		 {color: #f4c83d}
+
+/*character colors*/
+.kelaric
+		{color: #0C0}
+.vidius {color: #C0F}
+.morham {color: #F03}
+.june	{color: #06F}
+.leon	{color: #C63}
+.dalziel
+		{color: #C6C}
+.black	{color: #000;
+		 font-size: 16px;}
+
+/*layout*/
+#main_content
+		{width: 625px;
+		 margin: 50px 100px;}
+#nav	{position: fixed;
+		 width: 280px;
+		 right: 100px;
+		 top: 50px;}
